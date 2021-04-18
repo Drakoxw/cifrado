@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cifrado-sas": {
+      "hosting": {
+        "new-cifrado": [
+          "cifrado-sas"
+        ]
+      }
+    }
+  }
+}
