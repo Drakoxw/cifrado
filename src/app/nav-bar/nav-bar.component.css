@@ -117,6 +117,20 @@ ul, ol {
   font-weight: 100;
 }
 
+.check i {
+  display: none;
+  font-size: 300%;
+  color: #00a887;
+  top: 1rem;
+  right: 1rem;
+  position: fixed;
+}
+
+.active {
+  right: 0;
+  display: block!important
+}
+
 
 
 
@@ -137,3 +151,47 @@ ul, ol {
   100% { margin-left: -400%; }
 }
 
+@media screen and (max-width: 1100px) {
+  .btn {
+    position: absolute;
+    z-index: 101;
+    left: 10px;
+    top: 49vw;
+  }
+}
+@media screen and (max-width: 850px) {
+  .check i {
+    display: block;
+  }
+  .nav {
+    display: block;
+    top: 90px;
+    z-index: 102;
+    position: fixed;
+    /* right: 0; */
+    width: 50%;
+    max-width: 445px;
+    text-align: center;
+  }
+  .nav li{
+    float: initial;
+  }
+  .nell > li {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    z-index: 101;
+  }
+  .nav li:hover > ul {
+    top: 180px;
+    text-align: left;
+  }
+}

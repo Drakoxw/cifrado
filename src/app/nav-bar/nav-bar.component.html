@@ -10,16 +10,20 @@
     </div>
 
     <div id="header">
-			<ul class="nav">
-				<li><a href="">Inicio</a></li>
-				<li><a href="">Quienes somos</a></li>
-				<li><a href="">Servicios <span class="icon-down"></span></a>
+      <ul [class]="active">
+      <div class="check">
+        <!-- <input class="icon-menu" type="submit" value="'\f0c9'"> -->
+        <i class="icon-menu" (click)="toogleC()"></i>
+      </div>
+				<li><a href="#" (click)="toogleC()">Inicio</a></li>
+				<li><a href="#" (click)="toogleC()">Quienes somos</a></li>
+				<li><a >Servicios <span class="icon-down"></span></a>
 					<ul>
-						<li><a href="">Circuito Cerrado de Televisión y Alarmas</a></li>
-						<li><a href="">Soporte, Mantenimiento y Renovación Tecnológica</a></li>
-						<li><a href="">Cableado Estructurado</a></li>
-						<li><a href="">Redes Inalámbricas y Enlaces Inalámbricos</a></li>
-						<li><a href="">its CCTV, Alarmas, Control Biometrico, Video Portero y Access Point</a></li>
+						<li><a href="#" (click)="toogleC()">Circuito Cerrado de Televisión y Alarmas</a></li>
+						<li><a href="#" (click)="toogleC()">Soporte, Mantenimiento y Renovación Tecnológica</a></li>
+						<li><a href="#" (click)="toogleC()">Cableado Estructurado</a></li>
+						<li><a href="#" (click)="toogleC()">Redes Inalámbricas y Enlaces Inalámbricos</a></li>
+						<li><a href="#" (click)="toogleC()">its CCTV, Alarmas, Control Biometrico, Video Portero y Access Point</a></li>
 					</ul>
 				</li>
 				<li><a href="">Contáctenos</a></li>
