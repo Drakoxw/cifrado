@@ -35,8 +35,9 @@ ul, ol {
 }
 
 .nav li:hover > ul {
-  display:block;
+  display: block;
   width: 255px;
+  z-index: 101;
 }
 
 .nav li ul li {
@@ -84,5 +85,55 @@ ul, ol {
   display: flex;
   margin: auto;
   color: #fff;
+}
+
+/****************************************/
+.banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+}
+
+.banner ul{
+  display: flex;
+  width: 500%;
+  animation: cambio 15s ease-in infinite ;
+}
+
+.banner li, .banner img {
+  width: 100%;
+}
+
+.slider-btn {
+  position: absolute;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 37px;
+  margin: 0 1rem;
+  font-family: monospace;
+  text-align: center;
+  font-weight: 100;
+}
+
+
+
+
+@keyframes cambio {
+  0% { margin-left: 0%; }
+  10% { margin-left: 0%; }
+
+  15% { margin-left: -100%; }
+  35% { margin-left: -100%; }
+
+  40% { margin-left: -200%; }
+  55% { margin-left: -200%; }
+
+  60% { margin-left: -300%; }
+  85% { margin-left: -300%; }
+
+  90% { margin-left: -400%; }
+  100% { margin-left: -400%; }
 }
 

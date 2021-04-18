@@ -1,11 +1,37 @@
 
 .prestamos {
-
   background-color: transparent;
   background-image: linear-gradient(180deg, #232526 0%, #000000 100%);
 }
+.img2{
+  margin: 2rem 0 3rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 90%;
+  font-family: 'MontserratBold';
+}
+.img1 img, .img3 img {
+  margin: auto;
+}
+.img2 a{
+  color: white;
+}
 
 .prestamos img {
-  margin: auto;
   display: flex;
+}
+
+.img3{
+  background-color: rgba(255, 355, 255, 1);
+  border: solid 10px #0082cb;
+  text-align: center;
+  padding: 1rem;
+}
+.footer-bottom{
+  padding: 1rem;
+  font-family: 'MontserratBold';
+  color: white;
+  font-size: 90%;
+  background-color: #00a877;
 }

@@ -1,0 +1,47 @@
+.main{
+  width: 100%;
+  overflow: hidden;
+}
+.content{
+  margin-top: 5rem;
+  padding: 1rem;
+}
+.secc1{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.im{
+  width: auto;
+  height: auto;
+  margin-right: 4rem;
+}
+.im img{
+  width: 12vw;
+}
+
+.body{
+  width: 50%;
+  padding: 1rem;
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+}
+.cont h2 {
+  font-family:  MontserratExBold;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #00a887;
+}
+.cont h1 {
+  font-size: 15px;
+  margin-top: 1rem;
+  font-weight: 100;
+  letter-spacing: .8px;
+}
+.cont h1 strong {
+  color:#0082cb;
+}

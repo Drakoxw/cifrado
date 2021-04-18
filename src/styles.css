@@ -6,6 +6,18 @@
   font-family: Montserrat;
   src: url('./assets/fonts/Montserrat-Medium.ttf') format('truetype');
 }
+@font-face {
+  font-family: MontserratB;
+  src: url('./assets/fonts/Montserrat-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url('./assets/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: MontserratExBold;
+  src: url('./assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -17,7 +29,7 @@
 body {
   font-family: Montserrat,'Roboto', sans-serif;
   font-weight: bold;
-  background: #6f6f6f;
+  background: rgba(255, 255, 255, .8);
   overflow-x: hidden;
 }
 .mt4{
