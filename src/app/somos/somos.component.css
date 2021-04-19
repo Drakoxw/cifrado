@@ -1,0 +1,93 @@
+
+.somos-sec-1{
+  display: flex;
+  width: 100%;
+  padding: 1.2rem;
+}
+.bla{
+  width: 50%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.bla h2, .somos-sec-2 h2 {
+  color: #00a887;
+  margin-bottom: 1rem;
+}
+.bla strong{
+  color: #0082cb;
+}
+.bla p {
+  font-family: 'MontserratExL';
+  letter-spacing: .8px;
+  text-align: initial;
+}
+.img-nos{
+  width: 50%;
+}
+.img-nos img {
+  padding:1rem;
+  width:100% ;
+  height: auto;
+}
+.somos-sec-2{
+  padding: 1.1rem;
+}
+.somos-sec-2 li{
+  color: #0082cb;
+  font-family: 'MontserratExL';
+  letter-spacing: .8px;
+  margin-bottom: 7px;
+}
+
+.ico{
+  width: 1rem;
+  height: 1rem;
+}
+
+
+
+.somos-sec-3{
+  width: 100%;
+  height: auto;
+  background-color: #0082cb;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5vw;
+}
+.bloq-3{
+  text-align: left;
+  padding: 10px;
+}
+.bloq-3 h2{
+  font-size: 2.53rem;
+  margin-bottom: 1rem;
+}
+.bloq-3 p{
+  font-family: MontserratExL;
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+  letter-spacing: .8px;
+}
+
+@media screen and (max-width: 800px) {
+  .somos-sec-3{
+    display: block;
+  }
+  .bloq-3 h2{
+    font-size: 25px!important;
+  }
+  .bloq-3 p{
+    font-size: 90%!important;
+  }
+
+  .somos-sec-1{
+    flex-direction: column;
+  }
+  .img-nos, .bla{
+    width: 100%;
+  }
+
+
+
+}

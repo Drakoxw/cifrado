@@ -45,6 +45,11 @@
 .cont h1 strong {
   color:#0082cb;
 }
+.conten-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 @media screen and (max-width: 740px) {
   .secc1 {

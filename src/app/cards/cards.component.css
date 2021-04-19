@@ -1,0 +1,37 @@
+.cards {
+  width: 260px;
+  height: auto;
+  margin-bottom: 1.2rem;
+  border-radius: 4px;
+  box-shadow: 1px 3px 9px -4px;
+}
+.head-card{
+  width: 100%;
+  padding: .5rem;
+  height: auto;
+}
+.head-card img{
+  width: 100%;
+}
+.body-card{
+  width: 100%;
+  height: auto;
+  padding: 0 1rem 1rem 1rem;
+}
+.conten-cards{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.body-card h3 {
+  color: #00a887;
+  font-family: 'MontserratBold';
+  margin-bottom: 10px;
+}
+.body-card p {
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: .8px;
+}
