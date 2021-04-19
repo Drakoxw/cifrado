@@ -4,14 +4,14 @@
   background-image: linear-gradient(180deg, #232526 0%, #000000 100%);
 }
 .img2{
-  margin: 2rem 0 3rem 0;
+  margin: 2rem 0 0 0;
   display: flex;
   justify-content: space-evenly;
   color: white;
   font-size: 90%;
   font-family: 'MontserratBold';
 }
-.img1 img, .img3 img {
+.img1 img {
   margin: auto;
   width: 100%;
 }
@@ -22,13 +22,6 @@
 .prestamos .img1 {
   display: flex;
   width: 100%;
-}
-
-.img3{
-  background-color: rgba(255, 355, 255, 1);
-  border: solid 10px #0082cb;
-  text-align: center;
-  padding: 1rem;
 }
 .footer-bottom{
   padding: 1rem;
@@ -49,11 +42,14 @@
     width: 50%;
     display: flex;
     margin: auto;
+
   }
   .img2 ul {
     display: flex;
     text-align: center;
     margin: auto;
+    flex-direction: column;
+    margin-bottom: 1rem;
   }
 
 }

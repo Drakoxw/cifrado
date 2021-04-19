@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 .content{
-  margin-top: 5rem;
+  margin-top: 1rem;
   padding: 1rem;
 }
 .secc1{
@@ -44,4 +44,21 @@
 }
 .cont h1 strong {
   color:#0082cb;
+}
+
+@media screen and (max-width: 740px) {
+  .secc1 {
+    flex-direction: column;
+  }
+  .im {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .body{
+    width: 100%;
+  }
+  .im img{
+    width: 15vw;
+  }
 }
