@@ -4,6 +4,7 @@
   margin-bottom: 1.2rem;
   border-radius: 4px;
   box-shadow: 1px 3px 9px -4px;
+  animation: deslizar2 2s ease;
 }
 .head-card{
   width: 100%;
@@ -34,4 +35,12 @@
   font-size: 15px;
   font-weight: 100;
   letter-spacing: .8px;
+}
+@keyframes deslizar2 {
+  0% {
+    transform: translateX(110vw);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }

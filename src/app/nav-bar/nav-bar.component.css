@@ -16,11 +16,14 @@ ul, ol {
 }
 
 .nav li a {
-  background-color: #fff;
+  background-color :rgba(255,255,255,.7);
   color:#6f6f6f;
   text-decoration:none;
   padding: 13px 20px;
   display:block;
+}
+.nav .sub-li{
+  padding: 0 5px;
 }
 
 
@@ -120,10 +123,13 @@ ul, ol {
 .check i {
   display: none;
   font-size: 300%;
-  color: #00a887;
+  color: #fff;
   top: 1rem;
   right: 1rem;
   position: fixed;
+  background-color: #00a887;
+  border-radius: 8px;
+
 }
 
 .active {
@@ -168,7 +174,6 @@ ul, ol {
     top: 90px;
     z-index: 102;
     position: fixed;
-    /* right: 0; */
     width: 50%;
     max-width: 445px;
     text-align: center;
@@ -186,12 +191,16 @@ ul, ol {
     justify-content: center;
     align-self: center;
     align-items: center;
-    justify-self: center;
     position: relative;
     z-index: 101;
   }
   .nav li:hover > ul {
     top: 180px;
     text-align: left;
+  }
+}
+@media screen and (max-width: 454px) {
+  .logo {
+    margin: auto 6rem auto auto;
   }
 }

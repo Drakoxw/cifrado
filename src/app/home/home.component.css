@@ -7,6 +7,7 @@
   padding: 1rem;
 }
 .secc1{
+  overflow: hidden;
   width: 100%;
   justify-content: center;
   display: flex;
@@ -19,6 +20,7 @@
 }
 .im img{
   width: 12vw;
+  height: 12vw;
 }
 
 .body{
@@ -36,6 +38,16 @@
   font-weight: bolder;
   color: #00a887;
 }
+.none, .non{
+  transform: translateX(100vw);
+}
+.activy{
+  animation: deslizar1 2s linear;
+}
+.activx{
+  animation: deslizar2 2s linear;
+}
+
 .cont h1 {
   font-size: 15px;
   margin-top: 1rem;
@@ -49,6 +61,22 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+@keyframes deslizar1 {
+  0% {
+    transform: translateX(-50vw);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes deslizar2 {
+  0% {
+    transform: translateX(50vw);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 @media screen and (max-width: 740px) {
@@ -65,5 +93,18 @@
   }
   .im img{
     width: 15vw;
+    height: 15vw;
   }
+}
+@media screen and (max-width: 500px){
+  .cont h2{
+    animation: deslizar2 2s linear;
+  }
+  .im img{
+    animation: deslizar1 2s linear;
+  }
+  .none, .non{
+    transform: none;
+  }
+
 }
