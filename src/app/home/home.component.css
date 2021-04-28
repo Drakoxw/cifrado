@@ -39,7 +39,7 @@
   color: #00a887;
 }
 .none, .non{
-  transform: translateX(100vw);
+  opacity: 0;
 }
 .activy{
   animation: deslizar1 2s linear;

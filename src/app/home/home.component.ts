@@ -8,24 +8,34 @@ import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  y:any = 'non'
-  x:any = 'none'
+  y:any = ''
+  x:any = ''
   www:any;
+  med = {
+    500 : 350,//
+    600 : 398,//
+    700 : 424,//
+    800 : 494,//
+    900 : 542,// 432
+    1000 : 590,// 480
+    1100 : 638,// 528
+    1200 : 686,// 573
+    1300 : 706
+  }
 
   @HostListener('window:scroll', [])
 
   scroll():void {
     const rect = this.el.nativeElement.getBoundingClientRect();
-    let q = ((rect.top / 4)+(rect.top * 5));
-    console.log('q',q);
+    let q = (rect.top + 100);
+    //console.log('q',q);
 
-    if (rect.top < 500) {
+    if (rect.top < 501) {
       this.x = ''
       this.y = ''
     }
-    if (rect.top > 501 && rect.top < (q)) {
-      this.x = 'activx'
-      this.y = 'activy'
+    if (rect.top ) {
+
     }
 
     console.log('top', rect.top);
